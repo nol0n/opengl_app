@@ -19,11 +19,11 @@ add_subdirectory(external/glm/)
 
 # GLAD
 
-add_subdirectory(glad)
+add_subdirectory(dependencies/glad)
 
 # stb_image.h
 
-add_subdirectory(stb_image)
+add_subdirectory(dependencies/stb_image)
 
 # Project files
 

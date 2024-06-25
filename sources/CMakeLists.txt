@@ -11,8 +11,8 @@ add_subdirectory(shader_class)
 target_include_directories(app
   	PRIVATE lib_example/headers
   	PRIVATE shader_class/headers
-  	PRIVATE ../glad/include
-  	PRIVATE ../stb_image/headers
+  	PRIVATE ../dependencies/glad/include
+  	PRIVATE ../dependencies/stb_image/headers
 )
 
 target_link_libraries(app

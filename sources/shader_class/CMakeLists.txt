@@ -17,7 +17,7 @@ add_library(shader_class
 
 target_include_directories(shader_class
 	PRIVATE headers
-	PRIVATE ../../glad/include
+	PRIVATE ../../dependencies/glad/include
 )
 
 target_link_libraries(shader_class
