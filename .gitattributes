@@ -1,1 +1,4 @@
 external/* linguist-documentation=false
+glad linguist-documentation=false
+stb_image linguist-documentation=false
+resources/textures linguist-documentation=false
